@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularOutputCours';
+  public listComment = ["Test 1", "test 2", "test 3", "test 4"];
 }
