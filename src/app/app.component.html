@@ -1,3 +1,4 @@
 <div *ngFor="let value of listComment">
   <app-post [commentaire]="value"></app-post>
 </div>
+<app-create-com (sendComment)="addComment($event)" ></app-create-com>

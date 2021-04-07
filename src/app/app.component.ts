@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public listComment = ["Test 1", "test 2", "test 3", "test 4"];
+
+  addComment(comment:string){
+    this.listComment.push(comment);
+  }
 }
